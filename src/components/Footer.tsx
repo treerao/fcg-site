@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { Cpu } from 'lucide-react';
+import React from "react";
+import { Cpu } from "lucide-react";
 
 const Footer: React.FC = () => {
   return (
@@ -13,7 +13,9 @@ const Footer: React.FC = () => {
               <Cpu className="w-5 h-5 text-brand-accent" />
             </div>
             <div>
-              <span className="block font-bold text-white leading-none">FORESIGHT</span>
+              <span className="block font-bold text-white leading-none">
+                FORESIGHT
+              </span>
               <span className="block text-[10px] text-gray-500 font-mono tracking-widest uppercase">
                 Capital Group
               </span>
@@ -34,17 +36,17 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-white/5 pt-8 text-xs text-gray-600 leading-relaxed text-justify">
           <p className="mb-4">
-            DISCLAIMER: This website is for informational purposes only and does not constitute an
-            offer to sell or a solicitation of an offer to buy any securities. Any such offer will be
-            made only by means of a confidential private placement memorandum.
-          </p>
-          <p>
-            Past performance is not indicative of future results. The &quot;AI Uplift&quot; and &quot;IRR&quot; figures
-            presented are based on simulated models and historical backtesting of the Uplift
-            technology stack on representative infrastructure projects. Actual results may vary.
+            DISCLAIMER: This website is for informational purposes only.
+            Foresight Capital Group works exclusively with institutional and
+            accredited investors. Nothing on this website constitutes an offer
+            to sell, or a solicitation of an offer to purchase, any securities
+            or investment products. Any such offer or solicitation will be made
+            only by means of appropriate offering documents provided to
+            qualified investors.
           </p>
           <p className="mt-4 text-center md:text-left">
-            &copy; {new Date().getFullYear()} Foresight Capital Group. All rights reserved.
+            &copy; {new Date().getFullYear()} Foresight Capital Group. All
+            rights reserved.
           </p>
         </div>
       </div>

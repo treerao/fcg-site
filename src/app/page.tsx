@@ -5,6 +5,7 @@ import { motion, useScroll, useSpring } from 'framer-motion';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import Thesis from '@/components/Thesis';
+import Approach from '@/components/Approach';
 import Architecture from '@/components/Architecture';
 import UpliftLayer from '@/components/UpliftLayer';
 import Team from '@/components/Team';
@@ -34,6 +35,7 @@ export default function HomePage() {
       <main className="relative z-10">
         <Hero />
         <Thesis />
+        <Approach />
         <Architecture />
         <Economics />
         <UpliftLayer />

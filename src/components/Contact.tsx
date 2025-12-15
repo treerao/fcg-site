@@ -23,9 +23,6 @@ const Contact: React.FC = () => {
           <button className="px-8 py-4 bg-brand-accent text-brand-dark font-bold text-lg rounded hover:bg-white transition-colors flex items-center justify-center gap-2">
             Request Access <ArrowRight className="w-5 h-5" />
           </button>
-          <button className="px-8 py-4 bg-brand-surface border border-white/10 text-white font-medium text-lg rounded hover:bg-brand-surface/80 transition-colors flex items-center justify-center gap-2">
-            <Mail className="w-5 h-5" /> Contact IR
-          </button>
         </div>
       </div>
     </section>

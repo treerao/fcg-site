@@ -17,10 +17,10 @@ const UpliftLayer: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-sm font-mono text-brand-accent tracking-widest uppercase mb-4">
-            Uplift Labs
+            Uplift Systems
           </h2>
           <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Applied R&amp;D as a Financial Instrument
+            Applied R&amp;D as a Lever for Project Origination & Execution
           </h3>
           <p className="max-w-2xl mx-auto text-gray-400">
             Uplift delivers and iterates AI tech into real projects selected for investment. Designed

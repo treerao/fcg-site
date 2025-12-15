@@ -78,13 +78,13 @@ const Architecture: React.FC = () => {
               viewport={{ once: true }}
               className="space-y-6"
             >
-              {/* Uplift Labs */}
+              {/* Uplift Systems */}
               <div className="bg-brand-surface border border-white/10 rounded-2xl p-8 group hover:border-brand-accent/30 transition-colors">
                 <div className="flex items-center gap-4 mb-4">
                   <div className="p-2 bg-blue-500/10 rounded-lg text-blue-400">
                     <Lightbulb className="w-6 h-6" />
                   </div>
-                  <h4 className="text-xl font-bold text-white">Uplift Labs</h4>
+                  <h4 className="text-xl font-bold text-white">Uplift Systems</h4>
                 </div>
                 <p className="text-gray-400 text-sm">
                   AI R&amp;D center generating IRR uplift on projects and equity share of innovation via IP
