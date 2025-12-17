@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { Cpu, Menu, X } from 'lucide-react';
+import Logo from "./Logo";
 import { AnimatePresence, motion } from 'framer-motion';
 
 const navLinks = [
@@ -60,16 +61,9 @@ const Navbar: React.FC = () => {
           onClick={(e) => handleNavClick(e, '#')}
           className="flex items-center gap-2 group"
         >
-          <div className="bg-brand-accent/10 p-2 rounded-lg border border-brand-accent/20 group-hover:border-brand-accent/50 transition-colors">
-            <Cpu className="w-6 h-6 text-brand-accent" />
-          </div>
-          <div className="flex flex-col">
-            <span className="font-sans font-bold text-lg tracking-tight text-white leading-none">
-              FORESIGHT
-            </span>
-            <span className="font-mono text-[10px] text-gray-400 tracking-widest uppercase">
-              Capital Group
-            </span>
+          <div className="bg-brand-accent/10 px-2 py-0 rounded-lg border border-brand-accent/20 group-hover:border-brand-accent/50 transition-colors">
+            {/* Logo component with image */}
+            <Logo alt="FCG Logo" className="h-12 w-auto" />
           </div>
         </a>
 
