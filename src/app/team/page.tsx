@@ -1,15 +1,12 @@
 'use client';
 
+import React from 'react';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import Navbar from '@/components/Navbar';
-import Hero from '@/components/Hero';
-import Thesis from '@/components/Thesis';
-import Approach from '@/components/Approach';
-import Architecture from '@/components/Architecture';
-import Contact from '@/components/Contact';
+import Team from '@/components/Team';
 import Footer from '@/components/Footer';
 
-export default function HomePage() {
+export default function TeamPage() {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -27,12 +24,8 @@ export default function HomePage() {
 
       <Navbar />
 
-      <main className="relative z-10">
-        <Hero />
-        <Thesis />
-        <Approach />
-        <Architecture />
-        <Contact />
+      <main className="relative z-10 pt-20">
+        <Team />
       </main>
 
       <Footer />

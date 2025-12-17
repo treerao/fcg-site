@@ -64,8 +64,8 @@ const Thesis: React.FC = () => {
             className="text-gray-400 text-lg leading-relaxed"
           >
             Traditional infrastructure investment faces critical constraints that limit bankable deal flow.
-            Our thesis is that <span className="text-white font-medium">agentic AI</span> now enables
-            real-time modeling of physical systems, unlocking earlier origination and higher returns.
+            Our thesis is that AI now enables upfront and
+            ongoing modeling of projects across execution elements, unlocking new compelling originations and higher returns.
           </motion.p>
         </div>
 

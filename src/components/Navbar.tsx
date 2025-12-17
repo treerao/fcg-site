@@ -8,9 +8,7 @@ const navLinks = [
   { name: 'Thesis', href: '#thesis' },
   { name: 'Approach', href: '#approach' },
   { name: 'Architecture', href: '#architecture' },
-  { name: 'Economics', href: '#economics' },
-  { name: 'Uplift AI', href: '#uplift' },
-  { name: 'Team', href: '#team' },
+  { name: 'Team', href: '/team' },
 ];
 
 const Navbar: React.FC = () => {
@@ -35,6 +33,13 @@ const Navbar: React.FC = () => {
       return;
     }
 
+    // Handle regular page navigation
+    if (href.startsWith('/')) {
+      window.location.href = href;
+      return;
+    }
+
+    // Handle anchor links
     const element = document.querySelector(href);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
