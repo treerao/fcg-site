@@ -21,13 +21,13 @@ const cards = [
     icon: <Zap className="w-8 h-8 text-brand-accent" />,
     title: 'Real-Time Modeling',
     description:
-      'Advances in simulation and agentic AI enable real-time operating of physical systems—unlocking superior risk management.',
+      'Advances in simulation and AI enable real-time operations—unlocking superior risk management.',
   },
   {
     icon: <BarChart3 className="w-8 h-8 text-brand-accent" />,
     title: 'Measurable Uplift',
     description:
-      'Targeting 150 basis points of IRR improvement through embedded AI optimization and de-risking.',
+      'Targeting IRR boost of 150 basis points via embedded AI optimization and de-risking.',
   },
 ];
 
@@ -64,8 +64,8 @@ const Thesis: React.FC = () => {
             className="text-gray-400 text-lg leading-relaxed"
           >
             Traditional infrastructure investment faces critical constraints that limit bankable deal flow.
-            Our thesis is that AI now enables upfront and
-            ongoing modeling of projects across execution elements, unlocking new compelling originations and higher returns.
+            AI now enables upfront and
+            ongoing modeling of projects across execution elements, unlocking compelling originations and higher return projects.
           </motion.p>
         </div>
 

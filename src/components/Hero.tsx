@@ -57,8 +57,7 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl text-gray-400 mb-10 leading-relaxed"
             >
-              An institutional platform uniting capital deployment, practical AI application,
-              and value compounding—redefining infrastructure investment for the next decade.
+              We apply relevant AI to create investible projects repeatedly and at scale — redefining energy infrastructure and unlocking capital for the next decade.
             </motion.p>
 
             <motion.div
@@ -143,7 +142,7 @@ const Hero: React.FC = () => {
                 </motion.g>
               </svg>
 
-              {/* Central Uplift Engine */}
+              {/* Central Foresight Engine */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48">
                 {/* Spinning dashed border */}
                 <motion.div
@@ -155,8 +154,8 @@ const Hero: React.FC = () => {
                 {/* Core Glow */}
                 <div className="absolute inset-4 rounded-full bg-brand-dark/80 backdrop-blur-sm border border-brand-accent/30 flex items-center justify-center shadow-[0_0_30px_rgba(6,182,212,0.2)]">
                   <div className="text-center relative z-10">
-                    <Cpu className="w-10 h-10 text-brand-accent mx-auto mb-2" />
-                    <div className="text-xs font-bold text-white tracking-widest">UPLIFT</div>
+                    <img src="/fcg-icon.png" alt="Foresight" className="w-12 h-12 mx-auto mb-2" />
+                    <div className="text-xs font-bold text-white tracking-widest">FORESIGHT</div>
                   </div>
                   {/* Pulse effect */}
                   <motion.div
@@ -233,7 +232,7 @@ const Hero: React.FC = () => {
               <Cpu className="text-brand-accent w-5 h-5" />
             </div>
             <div>
-              <p className="text-xs text-gray-500 font-mono uppercase">Target Uplift</p>
+              <p className="text-xs text-gray-500 font-mono uppercase">Target Enhancement</p>
               <p className="text-xl font-bold text-white">+150 bps IRR</p>
             </div>
           </div>
