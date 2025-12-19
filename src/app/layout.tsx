@@ -15,9 +15,12 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Foresight Capital Group | Intelligent Infrastructure',
+  title: 'Foresight Capital Group | Activating the Intelligent Infrastructure Era',
   description:
-    'An institutional platform uniting capital deployment, practical AI application, and value compounding—redefining infrastructure investment for the next decade.',
+    'We apply relevant AI to create investible projects repeatedly and at scale — redefining energy infrastructure and unlocking capital for the next decade.',
+  icons: {
+    icon: '/fcg-icon.png',
+  },
 };
 
 export default function RootLayout({

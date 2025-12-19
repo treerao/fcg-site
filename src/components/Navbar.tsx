@@ -28,9 +28,13 @@ const Navbar: React.FC = () => {
     e.preventDefault();
     setIsOpen(false);
 
-    // Handle logo click to scroll top
+    // Handle logo click to scroll top or navigate home
     if (href === '#') {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (window.location.pathname === '/') {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        window.location.href = '/';
+      }
       return;
     }
 
@@ -40,10 +44,16 @@ const Navbar: React.FC = () => {
       return;
     }
 
-    // Handle anchor links
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+    // Handle anchor links - navigate to home page if not already there
+    if (href.startsWith('#')) {
+      if (window.location.pathname !== '/') {
+        window.location.href = '/' + href;
+        return;
+      }
+      const element = document.querySelector(href);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   };
 
