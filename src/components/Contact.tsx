@@ -15,8 +15,8 @@ const Contact: React.FC = () => {
         </h2>
         <h3 className="text-4xl md:text-5xl font-bold text-white mb-8">Join the Compounding Flywheel</h3>
         <p className="max-w-2xl mx-auto text-gray-400 mb-10 text-lg">
-          We are currently raising an evergreen rolling $55M capped round. Investors receive GP &amp;
-          Fee interests in Funds I-IV and Equity Stake in Uplift Lab shuttles.
+          We are raising rounds for the Foresight Capital Group and the Foresight Fund I.
+          Institutional and Accredited Investors only. Please reach out to learn more.
         </p>
 
         <div className="inline-flex flex-col sm:flex-row gap-4">

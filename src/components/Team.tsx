@@ -80,13 +80,8 @@ const Team: React.FC = () => {
           {teamMembers.map((member, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center text-center p-6 bg-brand-dark border border-white/5 rounded-lg hover:border-brand-accent/40 transition-colors group"
+              className="flex flex-col text-left p-6 bg-brand-dark border border-white/5 rounded-lg hover:border-brand-accent/40 transition-colors group"
             >
-              <div className="mb-4 w-32 h-32 rounded-full bg-gradient-to-br from-brand-accent/20 to-brand-accent/5 border border-brand-accent/30 flex items-center justify-center group-hover:border-brand-accent/60 transition-colors">
-                <svg className="w-16 h-16 text-brand-accent/40" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                </svg>
-              </div>
               <h4 className="text-xl font-bold text-white mb-3">{member.name}</h4>
               <p className="text-gray-400 text-sm leading-relaxed">{member.bio}</p>
             </div>

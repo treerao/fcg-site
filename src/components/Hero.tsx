@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl text-gray-400 mb-10 leading-relaxed"
             >
-              We apply relevant AI to create investible projects repeatedly and at scale — redefining energy infrastructure and unlocking capital for the next decade.
+              We apply relevant AI to create investible projects repeatedly and at scale — redefining energy infrastructure and unlocking capital for the next decade of opportunity.
             </motion.p>
 
             <motion.div
