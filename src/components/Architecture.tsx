@@ -27,16 +27,18 @@ const Architecture: React.FC = () => {
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="bg-brand-surface border border-white/10 rounded-2xl p-8 relative overflow-hidden group"
+              className="bg-brand-surface border border-white/10 rounded-2xl p-8 relative overflow-hidden group self-center hover:border-brand-accent/30 transition-colors"
             >
-              <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
-                <Layers className="w-24 h-24 text-white" />
+              <div className="flex items-center gap-4 mb-4">
+                <div className="p-2 bg-cyan-500/10 rounded-lg text-cyan-400">
+                  <Layers className="w-6 h-6" />
+                </div>
+                <h4 className="text-xl font-bold text-white">Foresight Funds</h4>
               </div>
-              <h4 className="text-2xl font-bold text-white mb-4">Foresight Funds</h4>
-              <p className="text-gray-400 mb-6">
+              <p className="text-gray-400 text-sm">
                 Private equity fund focused on AI-uplifted IRR in nextgen infrastructure projects.
               </p>
-              <ul className="space-y-3">
+              {/* <ul className="space-y-3">
                 <li className="flex items-center text-sm text-gray-300">
                   <span className="w-1.5 h-1.5 bg-brand-accent rounded-full mr-3"></span>
                   $500M Target Commitment
@@ -45,7 +47,7 @@ const Architecture: React.FC = () => {
                   <span className="w-1.5 h-1.5 bg-brand-accent rounded-full mr-3"></span>
                   17.6% Net IRR Target
                 </li>
-              </ul>
+              </ul> */}
             </motion.div>
 
             {/* Center Core */}
