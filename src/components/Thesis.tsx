@@ -7,27 +7,27 @@ import { BarChart3, Database, Globe, Zap } from 'lucide-react';
 const cards = [
   {
     icon: <Globe className="w-8 h-8 text-brand-accent" />,
-    title: '$3 Trillion Demand',
+    title: "$3 Trillion Demand",
     description:
-      'Annual project demand for the global energy transition, requiring sophisticated capital and technical solutions.',
+      "Annual project demand for the global energy transition, requiring sophisticated capital and technical solutions.",
   },
   {
     icon: <Database className="w-8 h-8 text-brand-accent" />,
-    title: '43% Idle Capital',
+    title: "43% Idle Capital",
     description:
-      'Greenfield PE AUM sitting idle due to regulatory complexities, data silos, and modeling limitations.',
+      "Greenfield PE AUM sits idle due to high-risk assessment barriers, insufficient feasibility capital, data silos, and manual due diligence processes.",
   },
   {
     icon: <Zap className="w-8 h-8 text-brand-accent" />,
-    title: 'Real-Time Modeling',
+    title: "Unified Modeling",
     description:
-      'Advances in simulation and AI enable real-time operations—unlocking superior risk management.',
+      "Modern simulation and AI integrate operational, supply-chain, and physical-system models—enabling deeper scenario testing, and superior risk control.",
   },
   {
     icon: <BarChart3 className="w-8 h-8 text-brand-accent" />,
-    title: 'Measurable Uplift',
+    title: "Measurable Uplift",
     description:
-      'Targeting IRR boost of 150 basis points via embedded AI optimization and de-risking.',
+      "Targeting IRR boost of 150 basis points via embedded AI optimization and de-risking.",
   },
 ];
 

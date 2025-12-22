@@ -7,9 +7,9 @@ import { CheckCircle2, Globe, LineChart, Target } from 'lucide-react';
 const approachItems = [
   {
     icon: <Target className="w-6 h-6 text-brand-accent" />,
-    title: 'AI-Assisted Project Evaluation',
+    title: 'AI-Assisted Project Origination',
     description:
-      'Development-stage opportunities prior to Final Investment Decision (FID), where our AI systems provide real-time modeling and risk assessment.',
+      'Development-stage opportunities prior to Final Investment Decision (FID), where our AI systems provide multi-domain modeling and risk assessment.',
   },
   {
     icon: <LineChart className="w-6 h-6 text-brand-accent" />,
@@ -27,7 +27,7 @@ const approachItems = [
     icon: <CheckCircle2 className="w-6 h-6 text-brand-accent" />,
     title: 'Sector Concentration',
     description:
-      'Renewable energy, geothermal, solar, sustainable aviation fuel (SAF), industrial decarbonization, and related transition opportunities.',
+      'New energy, geothermal, sustainable aviation fuel (SAF), industrial decarbonization, and related transition opportunities.',
   },
 ];
 
@@ -52,7 +52,7 @@ const Approach: React.FC = () => {
             transition={{ delay: 0.1 }}
             className="text-3xl md:text-4xl font-bold text-white mb-6"
           >
-            Pre-Development Capital Meets AI-Driven Insights
+            Pre-Development Capital Meets AI-Driven Diligence
           </motion.h3>
           <motion.p
             initial={{ opacity: 0, y: 20 }}

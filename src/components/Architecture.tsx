@@ -89,8 +89,7 @@ const Architecture: React.FC = () => {
                   <h4 className="text-xl font-bold text-white">Uplift Systems</h4>
                 </div>
                 <p className="text-gray-400 text-sm">
-                  AI R&amp;D center generating IRR uplift on projects and equity share of innovation via IP
-                  licenses.
+                  Applied AI R&amp;D center achieving IRR uplift on current projects and capturing return on innovation via shuttles.
                 </p>
               </div>
 
