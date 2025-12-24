@@ -8,6 +8,7 @@ import Approach from '@/components/Approach';
 import Architecture from '@/components/Architecture';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import GlobalComplianceModal from '@/components/GlobalComplianceModal';
 
 export default function HomePage() {
   const { scrollYProgress } = useScroll();
@@ -19,6 +20,8 @@ export default function HomePage() {
 
   return (
     <div className="relative min-h-screen bg-brand-dark selection:bg-brand-accent selection:text-white overflow-hidden">
+      <GlobalComplianceModal />
+      
       {/* Scroll Progress Bar */}
       <motion.div
         className="fixed top-0 left-0 right-0 h-1 bg-brand-accent origin-left z-50"
