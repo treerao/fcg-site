@@ -23,21 +23,25 @@ const teamMembers = [
     name: "William I.Y. Byun",
     bio: "Global expert in sustainability, energy, and infrastructure finance. Fulbright Scholar and juror for the Global Energy Prize. Adjunct professor at California State University with 25+ years of C-suite experience.",
   },
-  {
-    name: "Adam Bauer",
-    bio: "CEO and Founding Partner at Fairshore AM with deep experience in APAC debt and structured finance. Former senior roles at SMBC, Standard Chartered, and Goldman Sachs. Holds an MBA from INSEAD.",
-  },
+  // {
+  //   name: "Adam Bauer",
+  //   bio: "CEO and Founding Partner at Fairshore AM with deep experience in APAC debt and structured finance. Former senior roles at SMBC, Standard Chartered, and Goldman Sachs. Holds an MBA from INSEAD.",
+  // },
   {
     name: "Meagan Packard",
     bio: "Experienced operations leader with a track record in scaling processes and driving organizational efficiency. Early team member at multiple high-growth tech and sustainability startups. MBA from Kellogg and BA from Duke University.",
   },
   {
     name: "Justin Ferrell",
-    bio: "Leader in organizational change and innovation at Stanford's Institute of Design. Former design director at The Washington Post, contributing to one Pulitzer Prize and four finalist projects.",
+    bio: "Global expert in leadership for organizational change and innovation strategy in his 15th year at Stanford's Institute of Design. Former head of digital and new product design at The Washington Post, part of one Pulitzer Prize-winning investigation and four other finalists.",
   },
   {
     name: "Aurora Chiste",
     bio: "Executive and founder with 15+ years of global experience spanning sustainability, energy, fintech, and development. Member of the World Economic Forum; focuses on regenerative and resilient systems worldwide.",
+  },
+  {
+    name: "Jason Libersky",
+    bio: "Quantified Commodity Models & Business Pioneer in market-based decarbonization and environmental performance. Formerly at Chevron, Mercuria, Gevo, and Xpansiv. Deep expertise in data markets and differentiated commodities.",
   },
   {
     name: "Ramana Rao",
@@ -56,12 +60,20 @@ const teamMembers = [
     bio: "AI SaaS & Digital Transformation Technology executive with 20+ years in AI-powered SaaS and digital transformation. Former President of TIME and CTO at Newsweek. Founder of two deep-tech automation startups; advisor on enterprise AI scale-up.",
   },
   {
-    name: "Jason Libersky",
-    bio: "Quantified Commodity Models & Business Pioneer in market-based decarbonization and environmental performance. Formerly at Chevron, Mercuria, Gevo, and Xpansiv. Deep expertise in data markets and differentiated commodities.",
-  },
-  {
     name: "Alan Liu",
     bio: "Machine Learning Infrastructure Engineering leader at Google; formerly led TensorFlow engineering and prior roles at Enlitic, Heighten, and NetSuite. Specialist in scalable ML and data-centric software systems.",
+  },
+  {
+    name: "Jacob Gosselin",
+    bio: "United States Marine Corps veteran with 6+ years in aviation engineering, specializing in hydraulic systems and aviation supply chains; structuring financing of project entities.",
+  },
+  {
+    name: "Christina Lee",
+    bio: "Global professional in international markets with experience in technical and financial modeling of emerging energy infrastructure projects. Holds a joint Master's degree from Georgetown University (MSB/MSFS), with a focus on international business and policy.",
+  },
+  {
+    name: "Daniel Tinajero",
+    bio: "Expert in sustainability, energy transition, and environmental markets. Former Environmental Commissioner for the City of Vista (CA) with experience in carbon markets and infrastructure development. Dual MBA/MSc from the University of Michigan.",
   },
 ];
 
