@@ -2,7 +2,7 @@
 
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { Mail, MapPin, Phone, Clock, Send } from 'lucide-react';
+import { Mail, MapPin, Phone, Send } from 'lucide-react';
 import { useState } from 'react';
 
 export default function ContactPage() {
@@ -11,7 +11,6 @@ export default function ContactPage() {
     email: '',
     institution: '',
     phone: '',
-    investorType: '',
     message: '',
   });
 
@@ -94,20 +93,6 @@ export default function ContactPage() {
                         >
                           +1 (555) 123-4567
                         </a>
-                        <p className="text-gray-500 text-sm mt-1">Monday - Friday, 9:00 AM - 5:00 PM EST</p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-4">
-                      <div className="p-3 bg-brand-accent/10 rounded-lg">
-                        <Clock className="w-6 h-6 text-brand-accent" />
-                      </div>
-                      <div>
-                        <h3 className="text-white font-semibold mb-1">Business Hours</h3>
-                        <p className="text-gray-400">
-                          Monday - Friday: 9:00 AM - 5:00 PM EST<br />
-                          Saturday - Sunday: Closed
-                        </p>
                       </div>
                     </div>
                   </div>
@@ -211,26 +196,6 @@ export default function ContactPage() {
                       className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white focus:border-brand-accent focus:outline-none transition-colors"
                       placeholder="+1 (555) 123-4567"
                     />
-                  </div>
-
-                  <div>
-                    <label className="block text-sm font-medium text-gray-300 mb-2">
-                      Investor Type *
-                    </label>
-                    <select
-                      name="investorType"
-                      value={formData.investorType}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white focus:border-brand-accent focus:outline-none transition-colors"
-                    >
-                      <option value="">Select investor type</option>
-                      <option value="institutional">Institutional Investor</option>
-                      <option value="accredited-individual">Accredited Individual</option>
-                      <option value="family-office">Family Office</option>
-                      <option value="fund-of-funds">Fund of Funds</option>
-                      <option value="other">Other Accredited Investor</option>
-                    </select>
                   </div>
 
                   <div>
