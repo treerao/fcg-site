@@ -2,15 +2,31 @@
 
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { ArrowLeft } from 'lucide-react';
+import { useRouter } from 'next/navigation';
 
 export default function RegulatoryDisclosuresPage() {
+  const router = useRouter();
+
+  const handleBack = () => {
+    router.back();
+  };
+
   return (
     <div className="relative min-h-screen bg-brand-dark">
       <Navbar />
-      
+
       <main className="relative z-10 pt-32 pb-20">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
+            <button
+              onClick={handleBack}
+              className="flex items-center gap-2 text-brand-accent hover:text-white transition-colors mb-8 group"
+            >
+              <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
+              <span>Back</span>
+            </button>
+
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
               Regulatory Disclosures
             </h1>
@@ -23,9 +39,9 @@ export default function RegulatoryDisclosuresPage() {
                 <h2 className="text-2xl font-bold text-white mb-4">1. Registration and Regulatory Status</h2>
                 <div className="text-gray-300 leading-relaxed space-y-4">
                   <p>
-                    Foresight Capital Group operates as a private fund adviser. Investment offerings made 
-                    through Foresight Capital Group rely on exemptions from registration under the Securities 
-                    Act of 1933, as amended (the "Securities Act"), and the Investment Company Act of 1940, 
+                    Foresight Capital Group operates as a private fund adviser. Investment offerings made
+                    through Foresight Capital Group rely on exemptions from registration under the Securities
+                    Act of 1933, as amended (the "Securities Act"), and the Investment Company Act of 1940,
                     as amended (the "Investment Company Act").
                   </p>
                 </div>
@@ -35,7 +51,7 @@ export default function RegulatoryDisclosuresPage() {
                 <h2 className="text-2xl font-bold text-white mb-4">2. Rule 506(c) Compliance</h2>
                 <div className="text-gray-300 leading-relaxed space-y-4">
                   <p>
-                    Foresight Capital Group relies on Rule 506(c) of Regulation D for its private placement 
+                    Foresight Capital Group relies on Rule 506(c) of Regulation D for its private placement
                     offerings. Under Rule 506(c):
                   </p>
                   <ul className="list-disc list-inside ml-4 space-y-2">
@@ -51,14 +67,14 @@ export default function RegulatoryDisclosuresPage() {
                 <h2 className="text-2xl font-bold text-white mb-4">3. Accredited Investor Verification</h2>
                 <div className="text-gray-300 leading-relaxed space-y-4">
                   <p>
-                    Foresight Capital Group will verify accredited investor status using one or more of the 
+                    Foresight Capital Group will verify accredited investor status using one or more of the
                     following methods:
                   </p>
                   <ul className="list-disc list-inside ml-4 space-y-2">
                     <li>Review of income documentation (tax returns, W-2s, pay stubs)</li>
                     <li>Review of net worth documentation (bank statements, brokerage statements, appraisals)</li>
                     <li>Third-party verification services</li>
-                    <li>Written confirmation from registered broker-dealers, SEC-registered investment advisers, 
+                    <li>Written confirmation from registered broker-dealers, SEC-registered investment advisers,
                     licensed attorneys, or certified public accountants</li>
                     <li>Existing investor status (for certain prior investors)</li>
                   </ul>
@@ -69,13 +85,13 @@ export default function RegulatoryDisclosuresPage() {
                 <h2 className="text-2xl font-bold text-white mb-4">4. Securities Restrictions</h2>
                 <div className="text-gray-300 leading-relaxed space-y-4">
                   <p>
-                    Securities offered by Foresight Capital Group have not been registered under the Securities 
-                    Act or any state securities laws. These securities are subject to restrictions on transferability 
-                    and resale and may not be transferred or resold except as permitted under the Securities Act 
+                    Securities offered by Foresight Capital Group have not been registered under the Securities
+                    Act or any state securities laws. These securities are subject to restrictions on transferability
+                    and resale and may not be transferred or resold except as permitted under the Securities Act
                     and applicable state securities laws.
                   </p>
                   <p>
-                    Investors should be prepared to bear the economic risk of an investment for an indefinite 
+                    Investors should be prepared to bear the economic risk of an investment for an indefinite
                     period of time. There is no public market for the securities, and none is expected to develop.
                   </p>
                 </div>
@@ -85,12 +101,12 @@ export default function RegulatoryDisclosuresPage() {
                 <h2 className="text-2xl font-bold text-white mb-4">5. International Investors</h2>
                 <div className="text-gray-300 leading-relaxed space-y-4">
                   <p>
-                    For investors outside the United States, offerings may be made in reliance on Regulation S 
-                    under the Securities Act or other applicable exemptions. Non-U.S. investors must comply with 
+                    For investors outside the United States, offerings may be made in reliance on Regulation S
+                    under the Securities Act or other applicable exemptions. Non-U.S. investors must comply with
                     all applicable laws and regulations in their jurisdiction of residence.
                   </p>
                   <p>
-                    Foresight Capital Group does not offer securities in any jurisdiction where such offer would 
+                    Foresight Capital Group does not offer securities in any jurisdiction where such offer would
                     be prohibited or would require registration or licensing that has not been obtained.
                   </p>
                 </div>
@@ -114,7 +130,7 @@ export default function RegulatoryDisclosuresPage() {
                     <li><strong>Regulatory Risk:</strong> Changes in laws and regulations may adversely affect investments</li>
                   </ul>
                   <p>
-                    This is not an exhaustive list of risks. Please carefully review the offering documents 
+                    This is not an exhaustive list of risks. Please carefully review the offering documents
                     for a complete discussion of risks.
                   </p>
                 </div>
@@ -142,7 +158,7 @@ export default function RegulatoryDisclosuresPage() {
                 <h2 className="text-2xl font-bold text-white mb-4">8. Conflicts of Interest</h2>
                 <div className="text-gray-300 leading-relaxed space-y-4">
                   <p>
-                    Foresight Capital Group and its affiliates have conflicts of interest in managing the funds, 
+                    Foresight Capital Group and its affiliates have conflicts of interest in managing the funds,
                     including:
                   </p>
                   <ul className="list-disc list-inside ml-4 space-y-2">
@@ -153,7 +169,7 @@ export default function RegulatoryDisclosuresPage() {
                     <li>Related party transactions</li>
                   </ul>
                   <p>
-                    These conflicts will be disclosed in detail in the offering documents, along with policies 
+                    These conflicts will be disclosed in detail in the offering documents, along with policies
                     and procedures to manage such conflicts.
                   </p>
                 </div>
@@ -163,9 +179,9 @@ export default function RegulatoryDisclosuresPage() {
                 <h2 className="text-2xl font-bold text-white mb-4">9. ERISA Considerations</h2>
                 <div className="text-gray-300 leading-relaxed space-y-4">
                   <p>
-                    Investors that are employee benefit plans subject to the Employee Retirement Income Security 
-                    Act of 1974, as amended ("ERISA"), or other retirement plans or accounts subject to Section 4975 
-                    of the Internal Revenue Code should consult with their advisers regarding the suitability of an 
+                    Investors that are employee benefit plans subject to the Employee Retirement Income Security
+                    Act of 1974, as amended ("ERISA"), or other retirement plans or accounts subject to Section 4975
+                    of the Internal Revenue Code should consult with their advisers regarding the suitability of an
                     investment and potential prohibited transaction and other ERISA-related issues.
                   </p>
                 </div>
@@ -175,8 +191,8 @@ export default function RegulatoryDisclosuresPage() {
                 <h2 className="text-2xl font-bold text-white mb-4">10. Anti-Money Laundering and KYC</h2>
                 <div className="text-gray-300 leading-relaxed space-y-4">
                   <p>
-                    Foresight Capital Group has implemented anti-money laundering ("AML") and know-your-customer 
-                    ("KYC") procedures in accordance with applicable laws and regulations. All investors will be 
+                    Foresight Capital Group has implemented anti-money laundering ("AML") and know-your-customer
+                    ("KYC") procedures in accordance with applicable laws and regulations. All investors will be
                     required to provide identification and verification documents as part of the subscription process.
                   </p>
                 </div>
@@ -186,8 +202,8 @@ export default function RegulatoryDisclosuresPage() {
                 <h2 className="text-2xl font-bold text-white mb-4">11. Updates to Disclosures</h2>
                 <div className="text-gray-300 leading-relaxed space-y-4">
                   <p>
-                    The information on this page is subject to change. Foresight Capital Group will update 
-                    regulatory disclosures as necessary to reflect material changes in its operations or regulatory 
+                    The information on this page is subject to change. Foresight Capital Group will update
+                    regulatory disclosures as necessary to reflect material changes in its operations or regulatory
                     environment. Investors will be notified of material changes as required by applicable law.
                   </p>
                 </div>
@@ -202,7 +218,7 @@ export default function RegulatoryDisclosuresPage() {
                   <p className="font-semibold">
                     Foresight Capital Group<br />
                     Compliance Department<br />
-                    Email: compliance@foresightcapitalgroup.com
+                    Email: compliance@foresightcg.com
                   </p>
                 </div>
               </section>

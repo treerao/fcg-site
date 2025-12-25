@@ -2,15 +2,31 @@
 
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { ArrowLeft } from 'lucide-react';
+import { useRouter } from 'next/navigation';
 
 export default function PrivacyPage() {
+  const router = useRouter();
+
+  const handleBack = () => {
+    router.back();
+  };
+
   return (
     <div className="relative min-h-screen bg-brand-dark">
       <Navbar />
-      
+
       <main className="relative z-10 pt-32 pb-20">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
+            <button
+              onClick={handleBack}
+              className="flex items-center gap-2 text-brand-accent hover:text-white transition-colors mb-8 group"
+            >
+              <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
+              <span>Back</span>
+            </button>
+
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
               Privacy Policy
             </h1>
@@ -23,9 +39,9 @@ export default function PrivacyPage() {
                 <h2 className="text-2xl font-bold text-white mb-4">1. Introduction</h2>
                 <div className="text-gray-300 leading-relaxed space-y-4">
                   <p>
-                    Foresight Capital Group ("FCG," "we," "us," or "our") respects your privacy and is 
-                    committed to protecting your personal information. This Privacy Policy describes how 
-                    we collect, use, disclose, and safeguard your information when you visit our website 
+                    Foresight Capital Group ("FCG," "we," "us," or "our") respects your privacy and is
+                    committed to protecting your personal information. This Privacy Policy describes how
+                    we collect, use, disclose, and safeguard your information when you visit our website
                     or interact with our services.
                   </p>
                 </div>
@@ -77,7 +93,7 @@ export default function PrivacyPage() {
                     <li>Professional advisers, including lawyers, auditors, and consultants</li>
                   </ul>
                   <p>
-                    We do not sell, rent, or otherwise share your personal information with third parties 
+                    We do not sell, rent, or otherwise share your personal information with third parties
                     for their marketing purposes without your consent.
                   </p>
                 </div>
@@ -87,9 +103,9 @@ export default function PrivacyPage() {
                 <h2 className="text-2xl font-bold text-white mb-4">5. Data Security</h2>
                 <div className="text-gray-300 leading-relaxed space-y-4">
                   <p>
-                    We implement appropriate technical and organizational measures to protect your personal 
-                    information against unauthorized access, alteration, disclosure, or destruction. However, 
-                    no method of transmission over the Internet or electronic storage is 100% secure, and we 
+                    We implement appropriate technical and organizational measures to protect your personal
+                    information against unauthorized access, alteration, disclosure, or destruction. However,
+                    no method of transmission over the Internet or electronic storage is 100% secure, and we
                     cannot guarantee absolute security.
                   </p>
                 </div>
@@ -99,8 +115,8 @@ export default function PrivacyPage() {
                 <h2 className="text-2xl font-bold text-white mb-4">6. Data Retention</h2>
                 <div className="text-gray-300 leading-relaxed space-y-4">
                   <p>
-                    We retain your personal information for as long as necessary to fulfill the purposes 
-                    outlined in this Privacy Policy, unless a longer retention period is required or permitted 
+                    We retain your personal information for as long as necessary to fulfill the purposes
+                    outlined in this Privacy Policy, unless a longer retention period is required or permitted
                     by law. This includes retention for regulatory compliance and record-keeping requirements.
                   </p>
                 </div>
@@ -119,7 +135,7 @@ export default function PrivacyPage() {
                     <li>Objection to processing</li>
                   </ul>
                   <p>
-                    To exercise these rights, please contact us at privacy@foresightcapitalgroup.com.
+                    To exercise these rights, please contact us at privacy@foresightcg.com.
                   </p>
                 </div>
               </section>
@@ -128,8 +144,8 @@ export default function PrivacyPage() {
                 <h2 className="text-2xl font-bold text-white mb-4">8. Cookies and Tracking Technologies</h2>
                 <div className="text-gray-300 leading-relaxed space-y-4">
                   <p>
-                    We use cookies and similar tracking technologies to enhance your experience on our website. 
-                    You can control cookie settings through your browser preferences. However, disabling cookies 
+                    We use cookies and similar tracking technologies to enhance your experience on our website.
+                    You can control cookie settings through your browser preferences. However, disabling cookies
                     may limit your ability to use certain features of our website.
                   </p>
                 </div>
@@ -139,8 +155,8 @@ export default function PrivacyPage() {
                 <h2 className="text-2xl font-bold text-white mb-4">9. International Data Transfers</h2>
                 <div className="text-gray-300 leading-relaxed space-y-4">
                   <p>
-                    Your information may be transferred to and processed in countries other than your country 
-                    of residence. We will ensure that appropriate safeguards are in place to protect your 
+                    Your information may be transferred to and processed in countries other than your country
+                    of residence. We will ensure that appropriate safeguards are in place to protect your
                     information in accordance with applicable data protection laws.
                   </p>
                 </div>
@@ -150,8 +166,8 @@ export default function PrivacyPage() {
                 <h2 className="text-2xl font-bold text-white mb-4">10. Children's Privacy</h2>
                 <div className="text-gray-300 leading-relaxed space-y-4">
                   <p>
-                    Our website is not intended for individuals under the age of 18. We do not knowingly 
-                    collect personal information from children. If we become aware that we have collected 
+                    Our website is not intended for individuals under the age of 18. We do not knowingly
+                    collect personal information from children. If we become aware that we have collected
                     information from a child, we will take steps to delete such information.
                   </p>
                 </div>
@@ -161,7 +177,7 @@ export default function PrivacyPage() {
                 <h2 className="text-2xl font-bold text-white mb-4">11. Changes to This Privacy Policy</h2>
                 <div className="text-gray-300 leading-relaxed space-y-4">
                   <p>
-                    We may update this Privacy Policy from time to time. We will notify you of any material 
+                    We may update this Privacy Policy from time to time. We will notify you of any material
                     changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.
                   </p>
                 </div>
@@ -175,7 +191,7 @@ export default function PrivacyPage() {
                   </p>
                   <p className="font-semibold">
                     Foresight Capital Group<br />
-                    Email: privacy@foresightcapitalgroup.com
+                    Email: privacy@foresightcg.com
                   </p>
                 </div>
               </section>

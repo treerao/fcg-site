@@ -90,8 +90,8 @@ const Navbar: React.FC = () => {
             </a>
           ))}
           <a
-            href="#contact"
-            onClick={(e) => handleNavClick(e, '#contact')}
+            href="/investor-login"
+            onClick={(e) => handleNavClick(e, '/investor-login')}
             className="px-5 py-2 bg-brand-accent text-brand-dark font-bold text-sm rounded hover:bg-white transition-all duration-300"
           >
             Investor Login
@@ -125,8 +125,8 @@ const Navbar: React.FC = () => {
                 </a>
               ))}
               <a
-                href="#contact"
-                onClick={(e) => handleNavClick(e, '#contact')}
+                href="/investor-login"
+                onClick={(e) => handleNavClick(e, '/investor-login')}
                 className="mt-4 px-5 py-3 text-center bg-brand-accent text-brand-dark font-bold rounded"
               >
                 Investor Login

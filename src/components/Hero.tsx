@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl text-gray-400 mb-10 leading-relaxed"
             >
-              Foresight Capital Group partners with institutional and other accredited investors to originate and execute infrastructure investments across energy, AI, and critical systems.
+              We apply relevant AI to create investible projects repeatedly and at scale — redefining energy infrastructure and unlocking capital for the next decade of opportunity.
             </motion.p>
 
             <motion.div
@@ -67,10 +67,11 @@ const Hero: React.FC = () => {
               className="flex flex-col sm:flex-row gap-4"
             >
               <a
-                href="/investor-access"
+                href="#thesis"
+                onClick={(e) => handleScroll(e, '#thesis')}
                 className="px-8 py-4 bg-brand-accent text-brand-dark font-bold rounded hover:bg-white transition-all flex items-center justify-center gap-2 group"
               >
-                Investor Access
+                Explore The Thesis
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
               <a
@@ -78,7 +79,7 @@ const Hero: React.FC = () => {
                 onClick={(e) => handleScroll(e, '#contact')}
                 className="px-8 py-4 bg-transparent border border-white/20 text-white rounded hover:bg-white/5 transition-all flex items-center justify-center"
               >
-                Contact the Firm
+                Contact Us
               </a>
             </motion.div>
           </div>
@@ -172,11 +173,11 @@ const Hero: React.FC = () => {
                 className="absolute top-[20%] right-[10%] bg-brand-dark/90 border border-brand-accent/20 p-4 rounded-xl backdrop-blur-md shadow-2xl w-48 z-10"
               >
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-[10px] font-mono text-gray-400 uppercase">Live Analysis</span>
+                  <span className="text-[10px] font-mono text-gray-400 uppercase">Operating Models</span>
                   <Zap className="w-4 h-4 text-yellow-400" />
                 </div>
-                <div className="text-2xl font-bold text-white">Real-Time</div>
-                <div className="text-[10px] text-gray-500">Infrastructure Monitoring</div>
+                <div className="text-2xl font-bold text-white">AI-Driven</div>
+                <div className="text-[10px] text-gray-500">Performance Optimization</div>
               </motion.div>
 
               <motion.div
@@ -185,7 +186,7 @@ const Hero: React.FC = () => {
                 className="absolute bottom-[20%] left-[5%] bg-brand-dark/90 border border-brand-accent/20 p-4 rounded-xl backdrop-blur-md shadow-2xl w-52 z-10"
               >
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-[10px] font-mono text-gray-400 uppercase">Live Risk Model</span>
+                  <span className="text-[10px] font-mono text-gray-400 uppercase">Origination Risk Model</span>
                   <Activity className="w-4 h-4 text-brand-accent" />
                 </div>
                 <div className="flex gap-1 h-8 items-end">
@@ -213,8 +214,8 @@ const Hero: React.FC = () => {
               <Database className="text-brand-accent w-5 h-5" />
             </div>
             <div>
-              <p className="text-xs text-gray-500 font-mono uppercase">Global Infrastructure</p>
-              <p className="text-xl font-bold text-white">Energy + AI</p>
+              <p className="text-xs text-gray-500 font-mono uppercase">Annual Opportunity</p>
+              <p className="text-xl font-bold text-white">$3 Trillion</p>
             </div>
           </div>
           <div className="flex items-center gap-3">
@@ -222,8 +223,8 @@ const Hero: React.FC = () => {
               <TrendingUp className="text-brand-accent w-5 h-5" />
             </div>
             <div>
-              <p className="text-xs text-gray-500 font-mono uppercase">Investor Focus</p>
-              <p className="text-xl font-bold text-white">Institutional</p>
+              <p className="text-xs text-gray-500 font-mono uppercase">PE SECTOR IDLE CAPITAL</p>
+              <p className="text-xl font-bold text-white">43% PE AUM</p>
             </div>
           </div>
           <div className="flex items-center gap-3">
@@ -231,8 +232,8 @@ const Hero: React.FC = () => {
               <Cpu className="text-brand-accent w-5 h-5" />
             </div>
             <div>
-              <p className="text-xs text-gray-500 font-mono uppercase">Platform Approach</p>
-              <p className="text-xl font-bold text-white">AI-Driven</p>
+              <p className="text-xs text-gray-500 font-mono uppercase">Target Enhancement</p>
+              <p className="text-xl font-bold text-white">+150 bps IRR</p>
             </div>
           </div>
         </div>

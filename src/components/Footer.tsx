@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
             <Link href="/regulatory-disclosures" className="hover:text-brand-accent transition-colors">
               Regulatory Disclosures
             </Link>
-            <Link href="#contact" className="hover:text-brand-accent transition-colors">
+            <Link href="/contact" className="hover:text-brand-accent transition-colors">
               Contact
             </Link>
           </div>
