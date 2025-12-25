@@ -47,22 +47,22 @@ const teamMembers = [
     name: "Ramana Rao",
     bio: "Early career at Xerox PARC with 30+ patents and 10,000+ citations. Pioneer in information visualization, analytics, search, NLP, and human–AI systems. Founder w/ exits across consumer, enterprise, financial services, and media sectors.",
   },
-  {
-    name: "Alberto Stocchino",
-    bio: "Autonomous Industrial Systems Physicist and technologist; founder of Perceptive (AI perception systems) and innovation leader in mixed reality at Apple. Deep experience at the frontier of cognitive AI and sensing technologies.",
-  },
-  {
-    name: "Derek Lyons",
-    bio: "Cognitive AI & Human Systems Co-Founder and CTO of Actual. Rhodes Scholar with degrees from Oxford, MIT, and Yale. Expert in AI and cognitive systems that augment human creativity and problem solving.",
-  },
+  // {
+  //   name: "Alberto Stocchino",
+  //   bio: "Autonomous Industrial Systems Physicist and technologist; founder of Perceptive (AI perception systems) and innovation leader in mixed reality at Apple. Deep experience at the frontier of cognitive AI and sensing technologies.",
+  // },
+  // {
+  //   name: "Derek Lyons",
+  //   bio: "Cognitive AI & Human Systems Co-Founder and CTO of Actual. Rhodes Scholar with degrees from Oxford, MIT, and Yale. Expert in AI and cognitive systems that augment human creativity and problem solving.",
+  // },
   {
     name: "Bharat Krish",
     bio: "AI SaaS & Digital Transformation Technology executive with 20+ years in AI-powered SaaS and digital transformation. Former President of TIME and CTO at Newsweek. Founder of two deep-tech automation startups; advisor on enterprise AI scale-up.",
   },
-  {
-    name: "Alan Liu",
-    bio: "Machine Learning Infrastructure Engineering leader at Google; formerly led TensorFlow engineering and prior roles at Enlitic, Heighten, and NetSuite. Specialist in scalable ML and data-centric software systems.",
-  },
+  // {
+  //   name: "Alan Liu",
+  //   bio: "Machine Learning Infrastructure Engineering leader at Google; formerly led TensorFlow engineering and prior roles at Enlitic, Heighten, and NetSuite. Specialist in scalable ML and data-centric software systems.",
+  // },
   {
     name: "Jacob Gosselin",
     bio: "United States Marine Corps veteran with 6+ years in aviation engineering, specializing in hydraulic systems and aviation supply chains; structuring financing of project entities.",
